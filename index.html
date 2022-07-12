@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/main.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="page_wrap">
+        <h2 class="title">Типы селекторов</h2>
+        <div class="content">
+            <ul>
+                <li>
+                    <h3>По названию элемента</h3>
+                    <p class="txt_content">Селектор по названию элементу предназначен для выбора элементов по имени
+                        тега.</p>
+                    <p class="txt_content">p {padding-bottom: 15px;}</p>
+                    <span class="span">/* селектор p выберет все элементы p на странице */</span>
+                </li>
+                <li>
+                    <h3>Селектор по идентификатору (id)</h3>
+                    <p class="txt_content">Селектор по идентификатору предназначен для выбора элемента по идентификатору
+                        (значению атрибута
+                        id)</p>
+                    <p class="txt_content">#footer {height: 50px; margin-top: 20px;}</p>
+                    <span class="span">/* селектор #footer выберет элемент, имеющий идентификатор footer */</span>
+                </li>
+                <li>
+                    <h3>Селектор по классу</h3>
+                    <p class="txt_content">Селектор по классу предназначен для выбора элементов по классу (значению
+                        атрибута
+                        class).</p>
+                    <p class="txt_content">.center {text-align: center;}</p>
+                    <span class="span">/* селектор .center выберет все элементы, имеющие класс center */</span>
+                </li>
+                <li>
+                    <h3>Группировка селекторов</h3>
+                    <p class="txt_content">Для задания правил нескольким селекторам одновременно их необходимо
+                        перечислить через
+                        запятую.
+                    </p>
+                    <p class="txt_content">h3, h4 {
+                        font-size: 20px;
+                        margin-top: 15px;
+                        margin-bottom: 10px;
+                        }</p>
+                    <span class="span">/* селектор h3, h4 выберет все элементы на странице, имеющих тег h3 и h4
+                        */</span>
+                </li>
+                <li>
+                    <h3>По вложенности</h3>
+                    <p class="txt_content">Вы можете комбинировать любые типы селекторов через пробел. Такие селекторы
+                        называются вложенными
+                        или контекстными и читаются справа налево</p>
+                    <p class="txt_content">nav a {…}</p>
+                    <span class="span">/* выберет теги a внутри тегов nav */</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div>
+        <h2 class="title">Вторая часть задания</h2>
+    </div>
+    <div class="page_footer">
+        <p class="txt" id="txt_fiolet">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p class="txt">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p class="txt" id="txt_fiolet">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p class="txt">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p class="txt" id="txt_fiolet">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p class="txt txt_orange">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p class="txt">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p class="txt txt_blue">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p class="txt txt_yellow">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <nav>
+            <a href="">Lorem ipsum dolor sit amet consectetur adipisicing elit.</a>
+        </nav>
+    </div>
+
+</body>
+
+</html>

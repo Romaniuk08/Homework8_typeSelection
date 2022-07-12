@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.page_wrap {
+    background-color: rgb(243 243 243);
+    padding: 10px;
+}
+
+.title {
+    margin: 10px;
+}
+
+.txt_content,
+h3 {
+    margin: 0;
+}
+
+.span {
+    color: rgb(131 103 60)
+}
+
+/* Вторая часть задания */
+
+.page_footer {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.txt {
+    background-color: brown;
+}
+
+#txt_fiolet {
+    background-color: blueviolet;
+}
+
+.txt_blue {
+    background-color: blue;
+}
+
+.txt_yellow,
+.txt_orange {
+    background-color: rgb(173, 119, 18);
+}
+
+nav a {
+    background-color: aqua;
+}
